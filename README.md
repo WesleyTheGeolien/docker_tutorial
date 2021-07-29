@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/WesleyTheGeolien/docker_tutorial/HEAD)
+
 # Introduction
 
 A small demo project to reproduce figures  in a notebook
