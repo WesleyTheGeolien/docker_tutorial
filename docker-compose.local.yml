@@ -1,0 +1,11 @@
+version: '3'
+services:
+    my-notebook:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports: 
+            - 8888:8888
+        volumes:
+            - $PWD/results:/home/jovyan/work/results
+            - $PWD/perso_data:/home/jovyan/work/perso
